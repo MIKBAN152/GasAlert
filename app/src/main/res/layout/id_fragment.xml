@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/config_device_title"
+        android:textStyle="bold"
+        android:textColor="#dddddd"
+        android:layout_gravity="center"/>
+   <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="@string/text_id"
+        android:textColor="#dddddd"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:hint="#"
+        android:id="@+id/ETidbal"
+        android:maxLines="1"
+        android:focusable="true"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:textColor="@color/text_color"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Monitorear"
+        android:onClick="monitorearbalanza"
+        android:id="@+id/BTNmonit"/>
+</LinearLayout>

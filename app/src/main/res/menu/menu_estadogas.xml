@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mikeapps.gasalert.UI.EstadogasActivity">
+    <item android:id="@+id/action_proveedor" android:title="Datos Distribuidor"
+        android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/action_misdatos" android:title="Mis Datos"
+        android:orderInCategory="2" app:showAsAction="never" />
+    <item android:id="@+id/action_reset" android:title="Restaurar"
+        android:orderInCategory="3" app:showAsAction="never" />
+</menu>
